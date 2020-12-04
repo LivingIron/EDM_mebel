@@ -1,0 +1,151 @@
+#map{
+    background-color: hsla(0, 0%, 11%, 0.97);
+    padding-top: 75px;
+    position: relative;
+    overflow:hidden;
+    display: flex;
+    width: 100%;
+    height: 97vh;
+}
+#map iframe {
+    padding-top: 75px;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+ }
+
+ #form-container{
+     display: flex;
+     width: 100%;
+     height: 95vh;
+     background-image: url('../pics/Contacts.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+  
+     
+ }
+ #big-telephone-container,
+ #small-telephone-container{
+     color:hsla(58, 100%, 9%, 0.81);
+     background-color:hsla(58, 23%, 89%, 1);
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 50vh;   
+ }
+
+ #big-telephone-container h1,
+ #small-telephone-container h1{
+    font-family: 'RubikNormalLight';
+    font-size: 3rem;
+    padding-bottom: 5px;
+ }
+
+ #big-telephone-container h3,
+ #small-telephone-container h3{
+    padding:30px 0;
+    font-family: 'RubikItalicLight';
+    font-size: 2rem;
+    padding-bottom: 5px;
+ }
+
+ #big-telephone-container h4,
+ #small-telephone-container h4{
+    font-family: 'RubikNormalLight';
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+ #small-telephone-container h1{
+    font-size: 2rem;
+ }
+
+ #small-telephone-container h3{
+    font-size: 1.5rem;
+ }
+
+ #small-telephone-container h4{
+    font-size: 1rem;
+}
+
+
+
+#form-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#form-container h1{
+    color:hsla(58, 100%, 86%, 0.8);
+    font-family: 'RubikNormal';
+    font-size: 3rem;
+    padding-bottom: 5px;
+}
+#form-container form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form-container label{
+    color:hsla(58, 100%, 86%, 0.8);
+    font-size: 1.2rem;
+    font-family: 'RubikNormalLight';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-textarea,
+.small-textarea,
+.extra-small-textarea{
+    border: 1px solid hsla(58, 100%, 86%, 0.8);
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin:10px 0;
+}
+
+.small-textarea{
+    width: 300px;
+    height: 150px;
+}
+
+.extra-small-textarea{
+    width: 250px;
+    height: 100px;
+}
+
+
+
+.text-input {
+    border: 1px solid hsla(58, 100%, 86%, 0.8);
+    border-radius: 2px;
+   margin:10px 0;
+   width: 250px;
+   height: 35px;
+}
+
+.submit-input{
+    border: 1px solid hsla(58, 100%, 86%, 0.8);
+    color:hsla(58, 100%, 86%, 0.8);
+    background:none;
+    width: 150px;
+    height: 40px;
+}
+
+.submit-input:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,101 @@
+
+.navbar{
+    z-index: 99;
+    background-color: hsla(0, 0%, 11%, 0.97);
+    height: 75px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+}
+
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    
+}
+
+.nav-menu{
+    background-color:hsla(0, 0%, 11%, 0.97) ;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left:-5000px;
+    transition: 0.5s;
+}
+
+.nav-menu.active{
+    left:0;
+    transition:0.5s;
+
+}
+
+.nav-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style:none;
+    height: 60px;
+}
+
+.nav-text a{
+   text-decoration: none;
+   color: hsla(41, 100%, 91%, 1);
+   font-size: 1.5rem;
+   width: 95%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 16px;
+   border-radius: 4px;
+}
+
+.nav-text a:hover{
+    background-color: hsla(58, 100%, 60%, 0.75);
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color:hsla(0, 0%, 11%, 0.97) ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-pic{
+    
+    width:100px;
+    height: 100px;
+  
+}
+
+.wrapper-fit{
+    width: 100%;
+}
+
+span{
+    margin-left: 16px;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+
+
+h1{
+    width: inherit;
+    object-fit: scale-down;
+}

@@ -1,0 +1,129 @@
+
+.carousel-container{
+    flex-direction: column;
+
+}
+.carousel-container,
+.arrow-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.index1,
+.index2,
+.index3,
+.index4,
+.index5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    transition: ease-out 0.5s;
+}
+
+.index4{
+    background-image: url('../pics/carousel_pics/first_pic.jpg');
+}
+
+.index2{
+    background-image: url('../pics/carousel_pics/second_pic.jpg');
+}
+
+.index3{
+    background-image: url('../pics/carousel_pics/third_pic.jpg');
+}
+
+.index1{
+    background-image: url('../pics/carousel_pics/fourth_pic.jpg');
+}
+
+.index5{
+    background-image: url('../pics/carousel_pics/fifth_pic.jpg');
+}
+
+.arrow-icon-left{
+    
+    align-self: center;
+    color: hsla(300, 100%, 100%, 0.85);
+    border-radius: 100px;
+    border: 1px solid hsla(300, 100%, 100%, 0.77);
+    margin-left:2%;
+    transition: 0.2s;
+}
+
+.arrow-icon-right{
+    
+    align-self: center;
+    justify-self: end;
+    color: hsla(300, 100%, 100%, 0.85);
+    border-radius: 100px;
+    border: 1px solid hsla(300, 100%, 100%, 0.77);
+    margin-right:2%;
+}
+
+.arrow-icon-left:hover{
+    cursor: pointer;
+    color: hsla(300, 100%, 100%, 0.5);
+    border: 1px solid hsla(300, 100%, 100%, 0.65);
+}
+
+.arrow-icon-right:hover{
+    cursor: pointer;
+    color: hsla(300, 100%, 100%, 0.5);
+    border: 1px solid hsla(300, 100%, 100%, 0.65);
+}
+
+.arrow-container{
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+
+.carousel-dot-white,
+.carousel-dot-black{
+    display: flex;
+    align-self:flex-end;
+    justify-content: none;
+    transition: 0.75s;
+    margin-bottom:  10px;
+}
+
+.carousel-dot-white{
+    color: hsla(300, 100%, 100%, 0.7);
+}
+
+.carousel-dot-black{
+    color: hsla(300, 100%, 0%, 0.7);
+}
+
+.dot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-logo-big{
+    display: flex;
+    align-self: center;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-logo-small{
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-logo-extra-small{
+    display: flex;
+    align-self: center;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,58 @@
+.second-image-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    background: url('../pics/Gallery_pic.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+}
+
+.big-header-text,
+.small-header-text{
+    font-family: 'RubikItalicLight';
+    max-width: 65vw;
+    text-align: center;
+    color:hsla(58, 100%, 86%, 0.9);
+    align-self:center;
+}
+
+
+
+.big-header-text{
+    font-size: 2.5rem;
+}
+
+.small-header-text{
+    font-size: 1.75rem;
+}
+
+.second-image-container a{
+    align-self:center;
+}
+
+.facebook-button{
+    font-family: 'RubikNormal';
+    background: none;
+    font-size: 1.2rem;
+    margin-top: 20vh;
+    border: 1.75px solid hsla(58, 100%, 86%, 0.8);
+    color:hsla(58, 100%, 86%, 0.8);
+    background-color:hsla(0, 48%, 54%, 0.95);
+    border-radius: 7px;
+    padding: 20px 60px;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.gallery hr{
+    border: 1px solid black;
+}
+.facebook-button:hover{
+    background-color: hsla(0, 48%, 54%, 0.49);
+    cursor: pointer;
+}

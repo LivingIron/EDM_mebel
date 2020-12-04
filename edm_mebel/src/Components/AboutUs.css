@@ -1,0 +1,55 @@
+
+.aboutUs{
+    display: flex;
+    width: 100%;
+}
+
+.big-first-image-container,
+.small-first-image-container{
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../pics/AboutUsPic.png');
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.big-first-image-container h1,
+.small-first-image-container h1{
+    font-family: 'RubikNormalLight';
+    max-width: 600px;
+    color:hsla(58, 100%, 86%, 0.9);
+}
+
+.big-first-image-container p,
+.small-first-image-container p{
+    font-family: 'RubikItalicLight';
+    margin: 2% 0;
+    max-width: 700px;
+    color:hsla(58, 100%, 86%, 0.9);
+}
+
+.big-first-image-container h1{
+    font-size: 4rem;
+}
+
+.big-first-image-container p
+{
+    font-size: 1.5rem; 
+}
+
+.small-first-image-container h1{
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+
+.small-first-image-container p
+{
+    font-size: 1.2rem; 
+    max-width: 65vw;
+}

@@ -1,0 +1,122 @@
+.footer-container-big,
+.footer-container-small{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(58, 23%, 89%, 1);
+
+}
+
+.footer-list-li{
+    max-width: 500px;
+    padding: 0 5vw;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*------------------Big Version of footer-------------------*/
+
+.footer-container-big{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(58, 23%, 89%, 1);
+
+}
+
+.footer-list-ul-big{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list-ul-big h3{
+    color:hsla(58, 100%, 9%, 0.81);
+    font-family: 'RubikItalicLight';
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.footer-list-ul-big p{
+    padding: 10px 10px;
+    font-family: "RubikNormalLight";
+    font-size: 1.5rem;
+    color:hsla(58, 100%, 9%, 0.81);
+}
+/*------------------End-------------------*/
+/*------------------Small Version of footer-------------------*/
+
+.footer-container-small{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(58, 23%, 89%, 1);
+
+}
+
+.footer-list-ul-small .footer-list-li{
+    margin: 20px 0;
+}
+
+.footer-list-ul-small{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list-ul-small h3{
+    color:hsla(58, 100%, 9%, 0.81);
+    font-family: 'RubikItalicLight';
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.footer-list-ul-small p{
+    padding: 5px 0px;
+    font-family: "RubikNormalLight";
+    font-size: 1rem;
+    color:hsla(58, 100%, 9%, 0.81);
+}
+/*------------------End-------------------*/
+
+
+
+
+.footer-list-ul-big hr,
+.footer-list-ul-small hr
+{
+    border-top: 2px solid hsla(58, 23%, 76%, 1);
+    margin-bottom: 10px;
+}
+
+.footer-react-icons{
+    margin: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    color:hsla(58, 100%, 9%, 0.81);
+}
+
+.footer-copyright-container{
+    font-family: 'RubikItalicLight';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 6vh;
+    background-color:  hsla(58, 100%, 15%, 0.81);
+}
+.footer-copyright-container p{
+    font-family: 'RubikItalicLight';
+    color:hsla(58, 100%, 9%, 0.81);
+}
